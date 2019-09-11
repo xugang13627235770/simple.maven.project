@@ -17,8 +17,8 @@ public class JDK8Collect {
 
     static{
         User user1 = new User();
-        user1.setUserName("hello");
-        user1.setAccountNo("11111");
+        user1.setUserName("1111");
+        user1.setAccountNo("helllo");
         user1.setAge(11);
 
         User user2 = new User();
