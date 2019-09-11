@@ -15,6 +15,8 @@ import java.util.Collection;
  * @date 2017年3月31日下午4:39:57
  */
 public class Annotations {
+
+
     @Retention( RetentionPolicy.RUNTIME )
     @Target( { ElementType.TYPE_USE, ElementType.TYPE_PARAMETER } )
     public @interface NonEmpty {
